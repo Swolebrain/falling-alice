@@ -39,8 +39,19 @@ body {
   padding-top: 75%;
   /* Hide the text */
   text-indent: 100%;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	overflow: hidden;
+  transition: text-indent 2s ease-in-out;
+  /*font-size: 2rem;*/
+  color: white;
+}
+
+.in-view{
+  text-indent: 0;
+}
+
+.scrolled-past{
+  text-indent: -100%;
 }
 
 .alice-falling {
